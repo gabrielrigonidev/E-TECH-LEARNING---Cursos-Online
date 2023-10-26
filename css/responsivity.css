@@ -1,0 +1,122 @@
+@media (max-width: 110px) {
+    .plans-container {
+        width: 95%;
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-banner p {
+        font-size: 32px;
+        padding: 0 6rem;
+    }
+
+    .search-domain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    button {
+        padding: 0px 15px;
+    }
+
+    li,
+    a,
+    button {
+        font-size: 20px;
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .nav-links li {
+        display: inline-block;
+        padding: 0px 3px;
+    }
+
+    .services-container ul,
+    .teacher-container ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2rem 0 0rem;
+    }
+
+    .contact-container {
+        padding: 3rem 2rem;
+    }
+
+    .contact-container input,
+    .concact-container textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .search-domain-container h2 {
+        font-size: 28px;
+    }
+
+    .search-domain-container input[type="text"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1070px) {
+    .nav-links {
+        display: none;
+    }
+
+    header h1 {
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+    }
+
+    .mobile-nav ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-nav {
+        display: block;
+        padding-top: 1.2rem;
+        padding: 1rem;
+    }
+
+    a {
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+}
