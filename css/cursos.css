@@ -89,12 +89,13 @@
 
 .course .course-name {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     color: #FFF;
     background-color: #202b24;
-    padding: 20px 0;
-    margin-top: 85px;
+    margin: 6px;
+    text-align: center;
+    line-height: 20px;
 }
 
 .course .course-btn {
