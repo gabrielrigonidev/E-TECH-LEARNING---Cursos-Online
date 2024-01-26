@@ -21,7 +21,7 @@ li,
 a,
 button {
     font-size: 26px;
-    color: #FFF;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-    color: #FFF;
+    color: #fff;
 }
 
 .nav-links {
@@ -51,7 +51,7 @@ header h1 {
 }
 
 .nav-links li a:hover {
-    color: #2cc762;
+    color: rgba(0, 136, 169, 1);
     text-decoration: none;
 }
 
@@ -74,27 +74,21 @@ button:hover {
     margin-right: auto;
 }
 
-.main-banner {
-    background-image: url("../img/background.jpg");
-    padding: 10rem 0;
-    background-size: cover;
-    background-position: center;
-}
-
-.main-banner h1,
-.main-banner p {
+.carousel-text h1 {
+    position: relative;
+    top: -150px;
+    font-size: 104px;
     color: #fff;
     text-align: center;
     font-weight: bold;
     text-shadow: #000 3px 2px 4px;
 }
 
-.main-banner p {
-    font-size: 32px;
-}
-
-.main-banner h1 {
-    font-size: 64px;
+.carousel-text p {
+    font-size: 24px;
+    color: #fff;
+    font-style: italic;
+    text-shadow: #000 3px 2px 4px;
 }
 
 .services-container {
